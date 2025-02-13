@@ -1,0 +1,316 @@
+[
+    {
+        "id": 184792852,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Diospyros domingensis subsp. oxycarpa",
+        "common_name": "Cocuyo",
+        "population_trend": "Decreasing",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Haiti"
+        ],
+        "threats": [
+            "Shifting agriculture",
+            "Nomadic grazing",
+            "Small-holder grazing, ranching or farming",
+            "Small-holder farming"
+        ]
+    },
+    {
+        "id": 116353813,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Agave fortiflora",
+        "common_name": "N/A",
+        "population_trend": "Unknown",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Sonora",
+            "Mexico"
+        ],
+        "threats": [
+            "Small-holder grazing, ranching or farming"
+        ]
+    },
+    {
+        "id": 756253,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Celosia patentiloba",
+        "common_name": "N/A",
+        "population_trend": "Unknown",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Tanzania, United Republic of"
+        ],
+        "threats": [
+            "Shifting agriculture"
+        ]
+    },
+    {
+        "id": 249120158,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Lophura edwardsi",
+        "common_name": "N/A",
+        "population_trend": "Unknown",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Viet Nam"
+        ],
+        "threats": [
+            "Shifting agriculture",
+            "Agro-industry farming",
+            "War, civil unrest & military exercises",
+            "Agro-industry plantations"
+        ]
+    },
+    {
+        "id": 80220205,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Stenogyne bifida",
+        "common_name": "N/A",
+        "population_trend": "Unknown",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Hawaiian Is.",
+            "United States"
+        ],
+        "threats": [
+            "Avalanches/landslides",
+            "Habitat shifting & alteration"
+        ]
+    },
+    {
+        "id": 80219567,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Silene perlmanii",
+        "common_name": "N/A",
+        "population_trend": "Unknown",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Hawaiian Is.",
+            "United States"
+        ],
+        "threats": []
+    },
+    {
+        "id": 168907959,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Calophyllum calcicola",
+        "common_name": "N/A",
+        "population_trend": "Unknown",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Kalimantan",
+            "Indonesia"
+        ],
+        "threats": [
+            "Commercial & industrial areas",
+            "Mining & quarrying",
+            "Agro-industry farming"
+        ]
+    },
+    {
+        "id": 201057592,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Ranunculus hawaiensis",
+        "common_name": "N/A",
+        "population_trend": "Unknown",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Hawaiian Is.",
+            "United States"
+        ],
+        "threats": []
+    },
+    {
+        "id": 79862844,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Delissea rhytidosperma",
+        "common_name": "N/A",
+        "population_trend": "Decreasing",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Hawaiian Is.",
+            "United States"
+        ],
+        "threats": [
+            "Other threat"
+        ]
+    },
+    {
+        "id": 51056445,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Encephalartos hirsutus",
+        "common_name": "N/A",
+        "population_trend": "Decreasing",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Limpopo Province",
+            "South Africa"
+        ],
+        "threats": []
+    },
+    {
+        "id": 1984964,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Quercus albicaulis",
+        "common_name": "N/A",
+        "population_trend": "Unknown",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Hainan",
+            "China"
+        ],
+        "threats": [
+            "Scale Unknown/Unrecorded"
+        ]
+    },
+    {
+        "id": 99550795,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Hibiscus storckii",
+        "common_name": "N/A",
+        "population_trend": "Decreasing",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Fiji"
+        ],
+        "threats": [
+            "Habitat shifting & alteration",
+            "Storms & flooding"
+        ]
+    },
+    {
+        "id": 45813838,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Ceratotherium simum ssp. cottoni",
+        "common_name": "Square-lipped Rhinoceros",
+        "population_trend": "Decreasing",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Kenya",
+            "Central African Republic",
+            "Chad",
+            "Congo, The Democratic Republic of the",
+            "Uganda",
+            "South Sudan",
+            "Sudan"
+        ],
+        "threats": []
+    },
+    {
+        "id": 80174429,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Phyllostegia mannii",
+        "common_name": "N/A",
+        "population_trend": "Unknown",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Hawaiian Is.",
+            "United States"
+        ],
+        "threats": [
+            "Increase in fire frequency/intensity",
+            "Habitat shifting & alteration"
+        ]
+    },
+    {
+        "id": 2884829,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Magnolia wolfii",
+        "common_name": "N/A",
+        "population_trend": "Decreasing",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Colombia"
+        ],
+        "threats": [
+            "Scale Unknown/Unrecorded"
+        ]
+    },
+    {
+        "id": 2006883,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Gobiesox juniperoserrai",
+        "common_name": "N/A",
+        "population_trend": "Decreasing",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Baja California Sur",
+            "Mexico"
+        ],
+        "threats": [
+            "Abstraction of ground water (unknown use)",
+            "Droughts"
+        ]
+    },
+    {
+        "id": 80220397,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Stenogyne kanehoana",
+        "common_name": "N/A",
+        "population_trend": "Unknown",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Hawaiian Is.",
+            "United States"
+        ],
+        "threats": [
+            "Increase in fire frequency/intensity",
+            "Habitat shifting & alteration",
+            "Problematic native species/diseases"
+        ]
+    },
+    {
+        "id": 54341110,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Atelopus zeteki",
+        "common_name": "N/A",
+        "population_trend": "Decreasing",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Panama"
+        ],
+        "threats": [
+            "Agro-industry grazing, ranching or farming",
+            "Tourism & recreation areas",
+            "Small-holder farming",
+            "Housing & urban areas",
+            "Shifting agriculture",
+            "Agro-industry farming",
+            "Soil erosion, sedimentation",
+            "Small-holder plantations",
+            "Roads & railroads",
+            "Commercial & industrial areas",
+            "Small-holder grazing, ranching or farming"
+        ]
+    },
+    {
+        "id": 173927929,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Gossypium armourianum",
+        "common_name": "N/A",
+        "population_trend": "Unknown",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Baja California Sur",
+            "Mexico"
+        ],
+        "threats": [
+            "Tourism & recreation areas"
+        ]
+    },
+    {
+        "id": 56301947,
+        "possibly_extinct_in_the_wild": true,
+        "scientific_name": "Costus vinosus",
+        "common_name": "N/A",
+        "population_trend": "Decreasing",
+        "red_list_category": "Critically Endangered",
+        "locations": [
+            "Panama"
+        ],
+        "threats": [
+            "Scale Unknown/Unrecorded"
+        ]
+    }
+]

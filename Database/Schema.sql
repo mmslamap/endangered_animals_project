@@ -1,30 +1,27 @@
 CREATE TABLE "users" (
-  "id" integer PRIMARY KEY,
+  "id" SERIAL PRIMARY KEY,
   "username" varchar UNIQUE,
   "password_hash" varchar,
   "role" varchar,
-  "country_id" integer,
   "created_at" timestamp,
   "updated_at" timestamp
 );
 
 CREATE TABLE "animals" (
   "id" integer PRIMARY KEY,
-  "common_name" varchar UNIQUE,
+  "common_name" varchar,
   "scientific_name" varchar UNIQUE,
-  "vulnerability_status" varchar,
-  "conservation_measure" varchar,
-  "imageLink" varchar,
-  "assoc_habitats" varchar
+  "red_list_category" varchar,
+  "possibly_extinct_in_the_wild" boolean
 );
 
 CREATE TABLE "countries" (
-  "id" integer PRIMARY KEY,
+  "id" SERIAL PRIMARY KEY,
   "name" varchar UNIQUE
 );
 
 CREATE TABLE "threats" (
-  "id" integer PRIMARY KEY,
+  "id" SERIAL PRIMARY KEY,
   "name" varchar UNIQUE
 );
 
@@ -45,8 +42,6 @@ CREATE TABLE "animal_countries" (
   "country_id" integer,
   PRIMARY KEY ("animal_id", "country_id")
 );
-
-ALTER TABLE "users" ADD FOREIGN KEY ("country_id") REFERENCES "countries" ("id");
 
 ALTER TABLE "user_animals" ADD FOREIGN KEY ("user_id") REFERENCES "users" ("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
