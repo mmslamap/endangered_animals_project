@@ -4,6 +4,10 @@ import java.sql.Timestamp;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -13,8 +17,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
-import jakarta.persistence.PrePersist;
-import jakarta.persistence.PreUpdate;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
@@ -37,12 +39,22 @@ public class User {
     private Integer id;
 
     @NotNull
-    @Size(min = 3, max = 30)
+    @Size(min = 3, max = 30, message = "Username size must be between 3 and 30")
     private String username;
-    private String password_hash;
+
+    @Column(name = "password_hash")
+    @NotNull
+    @Size(min = 8, max = 64, message = "Password size must be between 8 and 64")
+    private String password;
+
+    @NotNull
     @Enumerated(EnumType.STRING)
     private Role role;
+
+    @CreationTimestamp
     private Timestamp created_at;
+
+    @UpdateTimestamp
     private Timestamp updated_at;
 
     @ManyToMany
@@ -51,20 +63,7 @@ public class User {
         joinColumns = @JoinColumn(name = "user_id"),
         inverseJoinColumns = @JoinColumn(name = "animal_id")
     )
+    @Builder.Default
     private Set<Animal> favoriteAnimals = new HashSet<>();
 
-    @PrePersist
-    public void onCreate() {
-
-        long now = System.currentTimeMillis();
-        this.created_at = new Timestamp(now);
-        this.updated_at = this.created_at;
-    }
-
-    @PreUpdate
-    public void onUpdate() {
-
-        long now = System.currentTimeMillis();
-        this.updated_at = new Timestamp(now);
-    }
 }

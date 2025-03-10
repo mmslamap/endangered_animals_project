@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\java",
+    "\\src\\main\\java\\com",
+    "\\src\\main\\java\\com\\endangeredanimals",
+    "\\src\\main\\java\\com\\endangeredanimals\\demo",
+    "\\src\\main\\java\\com\\endangeredanimals\\demo\\configuration",
+    "\\src\\main\\java\\com\\endangeredanimals\\demo\\entity"
+  ],
+  "SelectedNode": "\\src\\main\\java\\com\\endangeredanimals\\demo\\entity\\User.java",
+  "PreviewInSolutionExplorer": false
+}
